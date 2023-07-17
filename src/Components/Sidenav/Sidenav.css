@@ -1,0 +1,80 @@
+.sidenav{
+    width: 15rem;
+    height: 100vh;
+    z-index: 1038;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #1b2430;
+    transition: all .50s ease-in-out;
+}
+.menu{
+    padding-top: 5rem;
+    background-color: #1b2430;
+    color: #fff;
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 30px;
+    display: block;
+    margin: 10px;
+    padding-left: 2px;
+    border-radius: 8px;
+    
+}
+.menu ul li a:hover, .menu ul li .active{
+    background: #fff ;
+    color: #e66439;
+    transition: all .50s ease-in-out;
+}
+.menu ul li a:hover svg, .menu ul li .active svg{
+    fill: #e66439;
+}
+.m-icons{
+   width: 24px;
+   height: 24px; 
+   display: inline-block;
+   margin: 2px 12px;
+   vertical-align: bottom;
+}
+.m-icons svg{
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+
+
+@media (max-width: 991px){
+    .sidenav {
+        width: 100%;
+        position: relative;
+    }
+    .menu{
+        padding-bottom: 2rem;
+    }
+    .navclose .sidenav{
+        top: -500px;
+        opacity: 0;
+        height: 0 ;
+    }
+    .navopen .sidenav{
+        top: 0;
+        opacity: 1;
+        height: auto;
+       
+    }    
+    
+}
