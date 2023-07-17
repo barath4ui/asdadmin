@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/asdadmin/static/css/main.c353d2fd.css",
-    "main.js": "/asdadmin/static/js/main.cf81f036.js",
+    "main.css": "/asdadmin/static/css/main.d9bdf83c.css",
+    "main.js": "/asdadmin/static/js/main.ae804497.js",
     "static/js/787.39ba40ea.chunk.js": "/asdadmin/static/js/787.39ba40ea.chunk.js",
     "static/media/logoasd.png": "/asdadmin/static/media/logoasd.550da51fa2e134291025.png",
     "index.html": "/asdadmin/index.html",
-    "main.c353d2fd.css.map": "/asdadmin/static/css/main.c353d2fd.css.map",
-    "main.cf81f036.js.map": "/asdadmin/static/js/main.cf81f036.js.map",
+    "main.d9bdf83c.css.map": "/asdadmin/static/css/main.d9bdf83c.css.map",
+    "main.ae804497.js.map": "/asdadmin/static/js/main.ae804497.js.map",
     "787.39ba40ea.chunk.js.map": "/asdadmin/static/js/787.39ba40ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c353d2fd.css",
-    "static/js/main.cf81f036.js"
+    "static/css/main.d9bdf83c.css",
+    "static/js/main.ae804497.js"
   ]
 }
